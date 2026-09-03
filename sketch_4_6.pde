@@ -1,0 +1,12 @@
+float hour;
+hour=3600;
+float day;
+day=86400;
+float month;
+month=2628000;
+float year;
+year=3153600;
+println(hour);
+println(day);
+println(month);
+println(year);
