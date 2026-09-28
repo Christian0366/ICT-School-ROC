@@ -1,4 +1,4 @@
-int lengte = 3;
-String twee = "Dit is de tweede zin";
-String samen = "samen" + lengte + twee; 
+int lengte = 180;
+String tekst = " Wat lang zeg!";
+String samen = lengte + tekst; 
 println(samen);

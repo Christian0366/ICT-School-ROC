@@ -1,4 +1,4 @@
-int snelheid = 50;
-if(snelheid > 40){
-  println("" + true);
+int cijfer = 6;
+if (cijfer > 5.5){
+    println("" + true);
 }

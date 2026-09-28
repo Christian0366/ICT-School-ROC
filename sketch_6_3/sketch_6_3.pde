@@ -1,7 +1,6 @@
-float cijfer = 7.5;
-if(cijfer > 5.5){
-println("Je bent een voldoende");
-}
-if(cijfer < 5.5){
-println("Je bent een onvoldoende");
+int cijfer = 6;
+if(cijfer >= 5.5){
+println("je hebt een voldoende");
+}else{
+println("je hebt een onvoldoende");
 }
