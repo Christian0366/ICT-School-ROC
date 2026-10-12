@@ -1,7 +1,23 @@
-String eenVariabele = "Dit is een zin die we kunnen hergebruiken.";
-String nogEenVariabele = "Dit is de tweede zin ";
-String samenEenVariabele = "  ";
+int[] getallen = {5, 2, 5, 7, 2, 5, 9, 2, 4, 5};
 
-samenEenVariabele = nogEenVariabele + eenVariabele;
+void setup() {
+  println("Getallen in de array:");
+  for (int getal : getallen) {
+    println(getal);
+  }
 
-println(samenEenVariabele);
+  println("Aantal keer dat 5 voorkomt: " + telHoeVaakGetalVoorkomt(5));
+  println("Aantal keer dat 2 voorkomt: " + telHoeVaakGetalVoorkomt(2));
+}
+
+int telHoeVaakGetalVoorkomt(int getal) {
+  int aantal = 0;
+
+  for (int waarde : getallen) {
+    if (waarde == getal) {
+      aantal++;
+    }
+  }
+
+  return aantal;
+}
